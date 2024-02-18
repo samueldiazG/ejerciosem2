@@ -1,0 +1,6 @@
+import java.util. sacncer 
+public class ejercio1{
+    public static void main(String abc[]){
+
+    }
+}
