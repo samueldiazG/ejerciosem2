@@ -9,6 +9,8 @@ public class ejercicio31 {
     int al = leer.nextInt();
     double bsencm = bs/10;
     double alenmtr = al/1000;
+    double area = bs*al;
+    System.out.println("El area del triangulo es:"+area);
     System.out.println("la base es de :"+bsencm);
     System.out.println("la altura es de "+alenmtr+"^"+2);
     }

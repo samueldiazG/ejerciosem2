@@ -10,15 +10,11 @@ public class ejercicio32 {
         double prime2 = Math.pow(prime,2);
         double segla2 = Math.pow(segla,2);
         double area= prime2+segla2;
-        System.out.println("el area es "+area);
+        System.out.println("el area es: "+area);
         double cm = area*100;
-        System.out.println("el area en centimetros es "+cm);
+        System.out.println("el area en centimetros es: "+cm);
         double milimetros = area*1000;
-
-
-
-
-
+        System.out.println("El area en milimtros cuadrados es:"+milimetros+"^"+2);
     }
     
 }

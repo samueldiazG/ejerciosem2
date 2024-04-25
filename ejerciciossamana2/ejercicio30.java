@@ -6,6 +6,6 @@ public class ejercicio30 {
         System.out.println("ingrese la distancia km");
         int km = leer.nextInt();
         int metros = km*1000;
-        System.out.println("la longitud expresada en metros es de "+metros);
+        System.out.println("la longitud expresada en metros es de "+ metros);
     }
 }

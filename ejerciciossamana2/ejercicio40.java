@@ -9,7 +9,7 @@ public class ejercicio40 {
     double OnzaOro = leer.nextDouble();
     double groro = kOro * 1000;
     double onzasOro = groro / 28.3495;
-    double Total = onzasOro * OnzaOro;
+    double Total = groro * OnzaOro;
     System.out.println(kOro + " kilos de oro equivalen a $" + Total + " pesos.");
 
 }

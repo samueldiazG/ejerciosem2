@@ -11,16 +11,16 @@ public class ejercicio33 {
         int varones = 0;
         for (int i = 0; i < numEmpleados; i++) {
             System.out.println("Ingrese el genero :");
-            char sexo = leer.next().charAt(0);
+            char genero = leer.next().charAt(0);
             System.out.println("diguite el salario:");
             double salario = leer.nextDouble();
             sumaSalarios += salario;
             if (salario > 700) {
                 personasMasDe700++;
             }
-            if (sexo == 'M' || sexo == 'm') {
+            if (genero == 'M' || genero == 'm') {
                 varones++;
-            } else if (sexo == 'F' || sexo == 'f') {
+            } else if (genero == 'F' || genero == 'f') {
                 mujeres++;
             }
         }
